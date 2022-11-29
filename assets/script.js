@@ -45,7 +45,7 @@ $(function () {
             eventList.push(localStorage.getItem(blockNumber[i]));
         }
         $(".description").each(function () {
-            var taskNumber = ($(this).closest(".time-block").attr("id")) - 8;
+            var taskNumber = ($(this).closest(".time-block").attr("id")) - 9;
             $(this).text(eventList[taskNumber]);
         })
     };
