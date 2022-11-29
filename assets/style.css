@@ -1,0 +1,27 @@
+body {
+    font-family: 'sans-serif';
+    font-size: medium;
+    font-weight: 100;
+    float: 25%;
+    padding-bottom: 3%;
+}
+
+footer {
+    text-align: center;
+    padding-top: 8%;
+}
+
+.wipeBtn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+    justify-content: center;
+    margin: auto;
+}
+
+.topHeader {
+    text-align: center;
+    border-bottom: 10px black double;
+    background-color: bisque;
+    padding-top: 3%;
+}
+
